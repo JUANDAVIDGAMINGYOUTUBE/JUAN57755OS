@@ -1,7 +1,7 @@
 # This is a basic workflow that is manually triggered
-
+deploymentid: 4795765486390
 name: Build Website And App
-
+WEBSITEANDAPPID: 7436589070983698743589670349768
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
