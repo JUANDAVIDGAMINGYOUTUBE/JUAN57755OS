@@ -58,12 +58,40 @@
 
             function chooseFile() {
                 // Your C++ code for choosing a file
-                alert("Choosing a file...");
+
+void embedContent(std::string fileType) {
+    if (fileType == "MP4" || fileType == "MOV") {
+        std::cout << fileType << " file chosen. Embedding video...\n";
+        // Code to embed MP4 or MOV video
+    } else if (fileType == "MP3") {
+        std::cout << "MP3 file chosen. Embedding audio player...\n";
+        // Code to embed MP3 audio player
+    } else if (fileType == "TXT") {
+        std::cout << "TXT file chosen. Embedding text...\n";
+        // Code to embed text content
+    } else {
+        std::cout << "Unknown file type chosen.\n";
+    }
+}
+
+int main() {
+    std::string fileType;
+
+    // Simulate choosing a file when the button is pressed
+    std::cout << "Button clicked. Initiating file selection...\n";
+    std::cout << "Enter the file type (MP4, MOV, MP3, TXT): ";
+    std::cin >> fileType;
+
+    // Simulate handling the chosen file
+    embedContent(fileType);
+
+    return 0;
+            }
             }
 
             function playGame() {
                 // Your C++ code for playing a game
-                alert("Playing a game...");
+                alert("In development... coming soon");
             }
         </script>
     </div>
