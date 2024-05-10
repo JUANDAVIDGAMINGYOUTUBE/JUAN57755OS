@@ -95,5 +95,13 @@ int main() {
             }
         </script>
     </div>
-</body>
-  </html>
+<script src="https://apis.google.com/js/platform.js"></script>
+<div class="g-ytsubscribe" data-channelid="UC4AV46oK0ZegEVS8BSGiylA" data-layout="default" data-count="default" data-onytevent="onYtEvent"></div>
+
+<script>
+function onYtEvent(payload) {
+  if (payload.eventType == 'subscribe') {
+    // User has subscribed, you can perform any actions here
+  }
+}
+</script>
